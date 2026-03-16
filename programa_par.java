@@ -27,5 +27,6 @@ public class programa_par {
         } finally {
             scanner.close();
         }
+        // El programa termina aquí ------
     }
 }
