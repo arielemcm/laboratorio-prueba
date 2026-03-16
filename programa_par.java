@@ -3,13 +3,12 @@ import java.util.Scanner;
 public class programa_par {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+//Otro comentario
         try {
-            System.out.print("Ingrese un número entero: ");
-            
-            // Validar que la entrada sea un entero
+            System.out.print("Ingrese un # entero: ");
+        
             if (!scanner.hasNextInt()) {
-                System.out.println("Error: Debe ingresar un número entero válido.");
+                System.out.println("Ingrese un # valido.");
                 return;
             }
 
